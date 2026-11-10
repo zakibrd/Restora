@@ -1,0 +1,20 @@
+# Large VirtualBox files
+*.ova
+
+# Frontend dependencies
+frontend/node_modules/
+
+# Backend environment
+backend/venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Build files
+frontend/dist/
